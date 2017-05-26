@@ -1,0 +1,51 @@
+div {
+    text-align:center;
+    font-family:arial;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    width: 100%; 
+}
+
+.hardware {
+    background-image:url("images/hardware.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.software {
+    background-image:url(images/software.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.html {
+    background-image:url(images/html.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.css {
+    background-image:url(images/css.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.javascript {
+    background-image:url(images/javascript.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.appinventor {
+    background-image:url(images/appinventor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fpage {
+    background-image:url(images/fpage.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
