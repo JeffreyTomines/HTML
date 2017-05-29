@@ -44,5 +44,7 @@ div {
 }
 .fpage {
     background-image:url(images/fpage.gif);
+    width: 100%;
+    height:100%
 }
     
