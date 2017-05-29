@@ -44,8 +44,7 @@ div {
 }
 .fpage {
     background-image:url(images/fpage.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    width:100%;
+    height:100%
 }
     
