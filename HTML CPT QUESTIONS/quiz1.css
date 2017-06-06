@@ -10,36 +10,42 @@ div {
     background-image:url("images/hardware.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1080px;
     background-attachment: fixed;
 }
 .software {
     background-image:url(images/software.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1080px;
     background-attachment: fixed;
 }
 .html {
     background-image:url(images/html.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1080px;
     background-attachment: fixed;
 }
 .css {
     background-image:url(images/css.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1080px;
     background-attachment: fixed;
 }
 .javascript {
     background-image:url(images/javascript.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1080px;
     background-attachment: fixed;
 }
 .appinventor {
     background-image:url(images/appinventor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1080px;
     background-attachment: fixed;
 }
 .fpage {
