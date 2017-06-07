@@ -5,7 +5,11 @@ div {
     color: white;
     width: 100%; 
 }
-
+img {
+	display:in-line block;
+    width:50%
+    height:50%
+}
 .hardware {
     background-image:url("images/hardware.jpg");
     background-repeat: no-repeat;
