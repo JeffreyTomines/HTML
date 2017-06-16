@@ -1,0 +1,80 @@
+body {
+    font-family:arial; 
+}
+
+#question {
+    background-color:rgba(0,0,0,0.65);
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+div { 
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+}
+
+p, li {
+    padding:7px;
+    font-size:120%
+}
+
+a {
+    color:white;
+}
+
+.hardware {
+    background-image:url("images/hardware.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.software {
+    background-image:url(images/software.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.html {
+    background-image:url(images/html.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.css {
+    background-image:url(images/css.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.javascript {
+    background-image:url(images/javascript.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.appinventor {
+    background-image:url(images/appinventor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fpage {
+    background-image:url(images/fpagebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.one {
+    background-image:url(images/one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
