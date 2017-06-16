@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="javaScript.js"></script>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+
+    <body id="body" class="one">
+        <form name="form0" method="post" name="buttons" id="quiz" onsubmit="return false">
+            <div id="0" style="display:inline">
+                <h3 id="question">Which of the following is not a greenhouse gas?</h3>
+                <input id="answer" type="radio" name="group1" value="false">
+                <label>Water Vapor</label><br>   
+                <input id="answer" type="radio" name="group1" value="true">
+                <label>Argon</label><br>
+                <input id="answer" type="radio" name="group1" value="false">
+                <label>Carbon Dioxide</label><br>
+                <input id="answer" type="radio" name="group1" value="false">
+                <label>Methane</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="1" style="display:none">
+                <h3 id="question">Which of the following animal species is being threatened by climate change?</h3>
+                <input id="answer" type="radio" name="group2" value="false">
+                <label>Polar Bears</label><br>
+                <input id="answer" type="radio" name="group2" value="false">
+                <label>Frogs</label><br>
+                <input id="answer" type="radio" name="group2" value="false">
+                <label>Possums</label><br>
+                <input id="answer" type="radio" name="group2" value="true">
+                <label>All of the above</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="2" style="display:none">
+                <h3 id="question">Which is the most potent of these greenhouse gases?</h3>
+                <input id="answer" type="radio" name="group3" value="false">
+                <label>Nitrous Oxide</label><br>
+                <input id="answer" type="radio" name="group3" value="false">
+                <label>Carbon Dioxide</label><br>
+                <input id="answer" type="radio" name="group3" value="true">
+                <label>Fluorinated Gasses</label><br>
+                <input id="answer" type="radio" name="group3" value="false">
+                <label>Ozone</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="3" style="display:none">
+                <h3 id="question">Which of the following activities contributes the most to carbon emissions globally?</h3>
+                <input id="answer" type="radio" name="group4" value="true">
+                <label>Power generation</label><br>
+                <input id="answer" type="radio" name="group4" value="false">
+                <label>Transportation</label><br>
+                <input id="answer" type="radio" name="group4" value="false">
+                <label>Heating</label><br>
+                <input id="answer" type="radio" name="group4" value="false">
+                <label>Manufacturing</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="4" style="display:none">
+                <h3 id="question">Which of the following will happen as a result of climate change?</h3>
+                <input id="answer" type="radio" name="group5" value="false">
+                <label>Lower sea levels</label><br>
+                <input id="answer" type="radio" name="group5" value="false">
+                <label>A sale on bathing suits</label><br>
+                <input id="answer" type="radio" name="group5" value="false">
+                <label>Harsher winters in the arctic regions</label><br>
+                <input id="answer" type="radio" name="group5" value="true">
+                <label>Melting polar ice caps</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="5" style="display:none">
+                <h3 id="question">Which type of solar radiation bounces mostly off the Earth back toward the atmosphere?</h3>
+                <input id="answer" type="radio" name="group6" value="false">
+                <label>Gamma radiation</label><br>
+                <input id="answer" type="radio" name="group6" value="false">
+                <label>Microwave radiation</label><br>
+                <input id="answer" type="radio" name="group6" value="false">
+                <label>X-ray radiation</label><br>
+                <input id="answer" type="radio" name="group6" value="true">
+                <label>Infrared radiation</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="6" style="display:none">
+                <h3 id="question">Which of these greenhouse gases is most abundant in the atmosphere?</h3>
+                <input id="answer" type="radio" name="group7" value="false">
+                <label>Carbon Dioxide</label><br>
+                <input id="answer" type="radio" name="group7" value="false">
+                <label>Methane</label><br>
+                <input id="answer" type="radio" name="group7" value="true">
+                <label>Water Vapour</label><br>
+                <input id="answer" type="radio" name="group7" value="false">
+                <label>Nitrous Oxide</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="7" style="display:none">
+                <h3 id="question">If the world climate becomes warmer, what will happen to sea levels?</h3>
+                <input id="answer" type="radio" name="group8" value="false">
+                <label>Rise, due to glaciers and ice sheets melting</label><br>
+                <input id="answer" type="radio" name="group8" value="false">
+                <label>Fall, because hot water evaporates faster</label><br>
+                <input id="answer" type="radio" name="group8" value="true">
+                <label>Rise, due to glaciers and ice sheets melting + water expanding when it gets warmer</label><br>
+                <input id="answer" type="radio" name="group8" value="false">
+                <label>Rise, because water expands when it gets warmer</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="8" style="display:none">
+                <h3 id="question">Which country contributors the most to climate change?</h3>
+                <input id="answer" type="radio" name="group9" value="true">
+                <label>China</label><br>
+                <input id="answer" type="radio" name="group9" value="false">
+                <label>United States</label><br>
+                <input id="answer" type="radio" name="group9" value="false">
+                <label>Canada</label><br>
+                <input id="answer" type="radio" name="group9" value="false">
+                <label>Congo</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="9" style="display:none">
+                <h3 id="question">How long does it take for carbon dioxide in the atmosphere to dissipate?</h3>
+                <input id="answer" type="radio" name="group10" value="true">
+                <label>20-200 years</label><br>
+                <input id="answer" type="radio" name="group10" value="false">
+                <label>10-100 years</label><br>
+                <input id="answer" type="radio" name="group10" value="false">
+                <label>50 years</label><br>
+                <input id="answer" type="radio" name="group10" value="false">
+                <label>1 year</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="10" style="display:none">
+                <h3 id="question">Which type of light has the most insignificant environmental impact?</h3>
+                <input id="answer" type="radio" name="group11" value="false">
+                <label>Compact Fluorescent</label><br>
+                <input id="answer" type="radio" name="group11" value="true">
+                <label>LED</label><br>
+                <input id="answer" type="radio" name="group11" value="false">
+                <label>Halogen</label><br>
+                <input id="answer" type="radio" name="group11" value="false">
+                <label>Incandescent</label><br>
+                <button onclick="disp();">Next Question</button>
+            </div>
+            <div id="11" style="display:none">
+                <h3 id="question">What can individuals do to limit their greenhouse gas emission output?</h3>
+                <input id="answer" type="radio" name="group12" value="false">
+                <label>Be more energy efficient</label><br>
+                <input id="answer" type="radio" name="group12" value="false">
+                <label>Get informed</label><br>
+                <input id="answer" type="radio" name="group12" value="false">
+                <label>Reduce waste</label><br>
+                <input id="answer" type="radio" name="group12" value="true">
+                <label>All of the above</label><br>
+                <button onclick="handleClick();">End Quiz</button>
+            </div>
+            <div id="12" style="display:none">
+                <h1>Thank you for taking the quiz!</h1>
+                <h3>Click the button to reveal your score.</h3>
+                <button onclick="score();">score</button>
+                <div id="finalScore">
+                    <center>
+                        <p id="message"></p>
+                        <p id="mark"></p>
+                        <img id="finalpic">
+                        <p id="retake"></p>
+                    </center>
+                </div>
+            </div>
+
+        </form>
+    </body>
+</html>
